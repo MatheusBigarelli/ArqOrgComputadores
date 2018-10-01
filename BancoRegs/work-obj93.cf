@@ -1,7 +1,7 @@
 v 4
-file . "bancoRegs_tb.vhd" "979943f7100d2188aa1530c461deb379732825f6" "20181001000649.734":
-  entity bancoregs_tb at 1( 0) + 0 on 53;
-  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 54;
-file . "bancoRegs.vhd" "32a754746bb00160bf117ddd4745606d4f9ee4af" "20181001000649.510":
-  entity bancoregs at 1( 0) + 0 on 51;
-  architecture arch_bancoregs of bancoregs at 20( 503) + 0 on 52;
+file . "bancoRegs_tb.vhd" "979943f7100d2188aa1530c461deb379732825f6" "20181001004655.450":
+  entity bancoregs_tb at 1( 0) + 0 on 89;
+  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 90;
+file . "bancoRegs.vhd" "0386aafcb5a5ebbfba13c5c1e9eaa366596643b5" "20181001004655.205":
+  entity bancoregs at 1( 0) + 0 on 87;
+  architecture arch_bancoregs of bancoregs at 20( 503) + 0 on 88;
