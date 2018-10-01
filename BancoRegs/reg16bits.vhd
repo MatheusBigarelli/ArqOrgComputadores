@@ -27,6 +27,6 @@ begin
 			end if;
 		end if;
 	end process;
-	
+
 	data_out <= registro;
 end architecture;
