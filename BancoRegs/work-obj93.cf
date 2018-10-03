@@ -1,7 +1,19 @@
 v 4
-file . "bancoRegs_tb.vhd" "979943f7100d2188aa1530c461deb379732825f6" "20181001004655.450":
-  entity bancoregs_tb at 1( 0) + 0 on 89;
-  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 90;
-file . "bancoRegs.vhd" "0386aafcb5a5ebbfba13c5c1e9eaa366596643b5" "20181001004655.205":
-  entity bancoregs at 1( 0) + 0 on 87;
-  architecture arch_bancoregs of bancoregs at 20( 503) + 0 on 88;
+file . "reg16bits_tb.vhd" "7235f3bcbdb293b8fefb4ca6d8c4d60a56d631ef" "20181003130332.273":
+  entity reg16bits_tb at 1( 0) + 0 on 299;
+  architecture arch_reg16bits_tb of reg16bits_tb at 9( 108) + 0 on 300;
+file . "reg16bits.vhd" "6bc3d141f83b683311ed419b381f7361ad362bf5" "20181003130332.062":
+  entity reg16bits at 1( 0) + 0 on 297;
+  architecture arch_reg16bits of reg16bits at 16( 296) + 0 on 298;
+file . "porta.vhd" "be471b569e9e5809bcc73f04cbabd45fbae8244c" "20181002013158.027":
+  entity porta at 1( 0) + 0 on 151;
+  architecture a_porta of porta at 9( 148) + 0 on 152;
+file . "bancoRegs.vhd" "3f7374548c1b827e499045470a5a161da553bc14" "20181003140544.637":
+  entity bancoregs at 1( 0) + 0 on 385;
+  architecture arch_bancoregs of bancoregs at 20( 503) + 0 on 386;
+file . "bancoRegs_tb.vhd" "e063563e6d81c32079c673eb0e57099818f8639c" "20181003140544.943":
+  entity bancoregs_tb at 1( 0) + 0 on 387;
+  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 388;
+file . "e_4_entradas.vhd" "2f56e8b4f9ffefdd643fb60f15056f8171193bcb" "20181002013225.065":
+  entity e_4_entradas at 1( 0) + 0 on 153;
+  architecture a_e_4_entradas of e_4_entradas at 10( 144) + 0 on 154;

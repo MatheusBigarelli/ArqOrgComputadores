@@ -25,6 +25,8 @@ begin
 			if rising_edge(clock) then
 				registro <= data_in;
 			end if;
+		else
+			registro <= registro;
 		end if;
 	end process;
 
