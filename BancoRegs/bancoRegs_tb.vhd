@@ -16,17 +16,17 @@ architecture arch_bancoRegs_tb of bancoRegs_tb is
             reg_selector		:			in unsigned(4 downto 0);
             read_register1		:			in unsigned(4 downto 0);
             read_register2		:			in unsigned(4 downto 0);
-            write_data			:			in unsigned(15 downto 0);
-            read_data1			:			out unsigned(15 downto 0);
-            read_data2			:			out unsigned(15 downto 0)
+            write_data			:			in signed(15 downto 0);
+            read_data1			:			out signed(15 downto 0);
+            read_data2			:			out signed(15 downto 0)
         );
     end component;
 
     signal clock, reset, write_enable: std_logic;
     signal reg_selector: unsigned(4 downto 0);
     signal read_register1, read_register2: unsigned(4 downto 0);
-    signal write_data_signal, read_data1, read_data2: unsigned(15 downto 0);
-    signal registro1, registro2: unsigned(15 downto 0);
+    signal write_data_signal, read_data1, read_data2: signed(15 downto 0);
+    signal registro1, registro2: signed(15 downto 0);
 
     begin
         uut: bancoRegs port map(

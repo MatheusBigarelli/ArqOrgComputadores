@@ -1,19 +1,34 @@
 v 4
-file . "reg16bits_tb.vhd" "7235f3bcbdb293b8fefb4ca6d8c4d60a56d631ef" "20181003130332.273":
-  entity reg16bits_tb at 1( 0) + 0 on 299;
-  architecture arch_reg16bits_tb of reg16bits_tb at 9( 108) + 0 on 300;
-file . "reg16bits.vhd" "6bc3d141f83b683311ed419b381f7361ad362bf5" "20181003130332.062":
-  entity reg16bits at 1( 0) + 0 on 297;
-  architecture arch_reg16bits of reg16bits at 16( 296) + 0 on 298;
-file . "porta.vhd" "be471b569e9e5809bcc73f04cbabd45fbae8244c" "20181002013158.027":
-  entity porta at 1( 0) + 0 on 151;
-  architecture a_porta of porta at 9( 148) + 0 on 152;
-file . "bancoRegs.vhd" "3f7374548c1b827e499045470a5a161da553bc14" "20181003140544.637":
-  entity bancoregs at 1( 0) + 0 on 385;
-  architecture arch_bancoregs of bancoregs at 20( 503) + 0 on 386;
-file . "bancoRegs_tb.vhd" "e063563e6d81c32079c673eb0e57099818f8639c" "20181003140544.943":
-  entity bancoregs_tb at 1( 0) + 0 on 387;
-  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 388;
+file . "toplevel_tb.vhd" "aafa030aaa4beef44a478d11d2c5262b01eafe74" "20181006173345.454":
+  entity toplevel_tb at 1( 0) + 0 on 481;
+  architecture arch_toplevel_tb of toplevel_tb at 9( 99) + 0 on 482;
+file . "ula.vhd" "3360a1074c15fdc3866eb239f96fedcdb9ba2b71" "20181005191320.286":
+  entity ula at 1( 0) + 0 on 405;
+  architecture arch_ula of ula at 17( 401) + 0 on 406;
+file . "toplevel.vhd" "7fbf9b85418ce667415c6e8fd47d34887822c4f5" "20181006173345.193":
+  entity toplevel at 1( 0) + 0 on 479;
+  architecture arch_toplevel of toplevel at 27( 755) + 0 on 480;
 file . "e_4_entradas.vhd" "2f56e8b4f9ffefdd643fb60f15056f8171193bcb" "20181002013225.065":
   entity e_4_entradas at 1( 0) + 0 on 153;
   architecture a_e_4_entradas of e_4_entradas at 10( 144) + 0 on 154;
+file . "bancoRegs_tb.vhd" "af62d17135855f9fd1810a9c6050a9915d18d91b" "20181005191959.229":
+  entity bancoregs_tb at 1( 0) + 0 on 437;
+  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 438;
+file . "bancoRegs.vhd" "2ed7796bec5f8d8df952513de68e2661ad37b796" "20181005191958.940":
+  entity bancoregs at 1( 0) + 0 on 435;
+  architecture arch_bancoregs of bancoregs at 20( 497) + 0 on 436;
+file . "porta.vhd" "be471b569e9e5809bcc73f04cbabd45fbae8244c" "20181002013158.027":
+  entity porta at 1( 0) + 0 on 151;
+  architecture a_porta of porta at 9( 148) + 0 on 152;
+file . "reg16bits.vhd" "79720644f11b7d63f9149d2314ae6fe09be91680" "20181005191708.298":
+  entity reg16bits at 1( 0) + 0 on 423;
+  architecture arch_reg16bits of reg16bits at 16( 292) + 0 on 424;
+file . "reg16bits_tb.vhd" "7235f3bcbdb293b8fefb4ca6d8c4d60a56d631ef" "20181005191708.504":
+  entity reg16bits_tb at 1( 0) + 0 on 425;
+  architecture arch_reg16bits_tb of reg16bits_tb at 9( 108) + 0 on 426;
+file . "mux16bits.vhd" "855d78b5b97caae89bb41eb062e6c78c3d319aff" "20181005191250.570":
+  entity mux16bits at 1( 0) + 0 on 403;
+  architecture arch_mux16bits of mux16bits at 15( 274) + 0 on 404;
+file . "ula_tb.vhd" "066986f8b400ddd07a3635770f277abf399f02e6" "20181005191320.596":
+  entity ula_tb at 1( 0) + 0 on 407;
+  architecture arch_ula_tb of ula_tb at 9( 101) + 0 on 408;

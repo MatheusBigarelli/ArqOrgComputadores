@@ -10,9 +10,9 @@ entity bancoRegs is
 			read_register1		:			in unsigned(4 downto 0);
 			read_register2		:			in unsigned(4 downto 0);
 			reg_selector		:			in unsigned(4 downto 0);
-			write_data			:			in unsigned(15 downto 0);
-			read_data1			:			out unsigned(15 downto 0);
-			read_data2			:			out unsigned(15 downto 0)
+			write_data			:			in signed(15 downto 0);
+			read_data1			:			out signed(15 downto 0);
+			read_data2			:			out signed(15 downto 0)
 	);
 end;
 
@@ -23,13 +23,13 @@ architecture arch_bancoRegs of bancoRegs is
 				clock			:		in std_logic;
 				reset			:		in std_logic;
 				write_enable	:		in std_logic;
-				data_in			:		in unsigned(15 downto 0);
-				data_out		:		out unsigned(15 downto 0)
+				data_in			:		in signed(15 downto 0);
+				data_out		:		out signed(15 downto 0)
 		);
 	end component;
 
 	signal data_out1, data_out2, data_out3, data_out4,
-	data_out5, data_out6, data_out7, data_out8 : unsigned(15 downto 0);
+	data_out5, data_out6, data_out7, data_out8 : signed(15 downto 0);
 
 	signal write_enable1, write_enable2, write_enable3, write_enable4,
 	write_enable5, write_enable6, write_enable7, write_enable8: std_logic;
