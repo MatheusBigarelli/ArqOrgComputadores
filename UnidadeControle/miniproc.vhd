@@ -53,10 +53,10 @@ architecture arch_miniproc of miniproc is
 begin
     program_counter: pc port map(clock => clock, write_enable => pc_write_s, data_in => data_in_pc, data_out => data_out_pc);
     proto_control_unit: protouc port map(data_in_uc => data_out_pc, data_out_uc => data_out_uc);
-    memory: rom port map(clock => clock, address => data_out_pc, data => rom_data_out);
+    memory: rom port map(clock => clock, address => data_out_pc, data => buffer_rom_data_out);
     control_unit: uc_com_jump port map(clock => clock, reset => reset, instruction => buffer_rom_data_out, pc_write => pc_write_s, rom_out_enable => rom_out_enable_s, jump_enable => jump_enable_s);
 
-    data_in_pc <= "000000" & rom_data_out(9 downto 0) when jump_enable_s = '1' else
+    data_in_pc <= unsigned("000000") & rom_data_out(9 downto 0) when jump_enable_s = '1' else
                   data_out_uc;
     rom_data_out <= buffer_rom_data_out when rom_out_enable_s = '1' else rom_data_out;
 

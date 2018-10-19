@@ -1,49 +1,49 @@
 v 4
-file . "uc_com_jump_tb.vhd" "3f4c23b20a713f4278977eda814f338d9439a43e" "20181019015820.008":
-  entity uc_com_jump_tb at 1( 0) + 0 on 191;
-  architecture arch_uc_com_jump_tb of uc_com_jump_tb at 8( 101) + 0 on 192;
-file . "uc_tb.vhd" "4938b0a93add28f5a17a0f8f6ffada9701f8a20c" "20181019013714.669":
-  entity uc_tb at 1( 0) + 0 on 183;
-  architecture arch_uc_tb of uc_tb at 8( 92) + 0 on 184;
-file . "rom_e_pc_tb.vhd" "f077659e4e83dffff7fc202b2f7c9f5953959795" "20181019010206.991":
-  entity rom_e_pc_tb at 1( 0) + 0 on 125;
-  architecture arch_rom_e_pc_tb of rom_e_pc_tb at 8( 98) + 0 on 126;
-file . "protouc_tb.vhd" "8304526d5b6dccc8d99c6d877c36f5621dcd1c3e" "20181019003204.359":
-  entity protouc_tb at 1( 0) + 0 on 71;
-  architecture arch_protouc_tb of protouc_tb at 9( 98) + 0 on 72;
-file . "pc_tb.vhd" "18c680855570970edc9ed808aabd3d0b21f441b3" "20181019010151.577":
-  entity pc_tb at 1( 0) + 0 on 117;
-  architecture arch_pc_tb of pc_tb at 9( 93) + 0 on 118;
-file . "fsm_tb.vhd" "e166e9d68f871f78006c3de06a48f6a20b4b6c09" "20181019013519.520":
-  entity fsm_tb at 1( 0) + 0 on 167;
-  architecture arch_fsm_tb of fsm_tb at 9( 94) + 0 on 168;
-file . "rom_tb.vhd" "149fd211cff5cc525c8e440a9413f5287c34978d" "20181019023010.002":
-  entity rom_tb at 1( 0) + 0 on 211;
-  architecture arch_rom_tb of rom_tb at 9( 94) + 0 on 212;
-file . "rom.vhd" "d51e05b47875de190344bfc325623bccca11fbe0" "20181019023009.770":
-  entity rom at 1( 0) + 0 on 209;
-  architecture arch_rom of rom at 13( 276) + 0 on 210;
-file . "pc.vhd" "522f7ddec698a8afc75b2bc615010504c25c55d4" "20181019010151.364":
-  entity pc at 1( 0) + 0 on 115;
-  architecture arch_pc of pc at 15( 331) + 0 on 116;
-file . "protouc.vhd" "ec9db42a7f3572e67476e9f3c9bead6afdadc7dd" "20181019003204.157":
-  entity protouc at 1( 0) + 0 on 69;
-  architecture arch_protouc of protouc at 13( 234) + 0 on 70;
-file . "rom_e_pc.vhd" "eb3bd4b734ccef66a74e40836f8895a03d4e1d7e" "20181019010206.753":
-  entity rom_e_pc at 1( 0) + 0 on 123;
-  architecture arch_rom_e_pc of rom_e_pc at 14( 275) + 0 on 124;
-file . "uc.vhd" "890dbd5969219c9d7062af97a32d00417f82d17d" "20181019013714.461":
-  entity uc at 1( 0) + 0 on 181;
-  architecture arch_uc of uc at 14( 291) + 0 on 182;
-file . "fsm.vhd" "2b6f73e7411258436593ef2c267f8ca3e3c59c6b" "20181019013519.321":
-  entity fsm at 1( 0) + 0 on 165;
-  architecture arch_fsm of fsm at 15( 247) + 0 on 166;
+file . "miniproc.vhd" "dd1017eb535b4beefa0a9ffba43148f5ec284bb9" "20181019030009.086":
+  entity miniproc at 1( 0) + 0 on 257;
+  architecture arch_miniproc of miniproc at 14( 239) + 0 on 258;
+file . "miniproc_tb.vhd" "87566dce4756be9c12430846f7901d14fc6ed165" "20181019030524.043":
+  entity miniproc_tb at 1( 0) + 0 on 261;
+  architecture arch_miniproc_tb of miniproc_tb at 8( 98) + 0 on 262;
 file . "uc_com_jump.vhd" "41001548bd0f66043dc1e04d8de244c81246ca50" "20181019015819.796":
   entity uc_com_jump at 1( 0) + 0 on 189;
   architecture arch_uc_com_jump of uc_com_jump at 16( 405) + 0 on 190;
-file . "miniproc_tb.vhd" "87566dce4756be9c12430846f7901d14fc6ed165" "20181019023256.784":
-  entity miniproc_tb at 1( 0) + 0 on 227;
-  architecture arch_miniproc_tb of miniproc_tb at 8( 98) + 0 on 228;
-file . "miniproc.vhd" "7474868cade16eb4383d79d838c015ec5a4501de" "20181019023256.471":
-  entity miniproc at 1( 0) + 0 on 225;
-  architecture arch_miniproc of miniproc at 14( 239) + 0 on 226;
+file . "fsm.vhd" "2b6f73e7411258436593ef2c267f8ca3e3c59c6b" "20181019013519.321":
+  entity fsm at 1( 0) + 0 on 165;
+  architecture arch_fsm of fsm at 15( 247) + 0 on 166;
+file . "uc.vhd" "890dbd5969219c9d7062af97a32d00417f82d17d" "20181019013714.461":
+  entity uc at 1( 0) + 0 on 181;
+  architecture arch_uc of uc at 14( 291) + 0 on 182;
+file . "rom_e_pc.vhd" "eb3bd4b734ccef66a74e40836f8895a03d4e1d7e" "20181019010206.753":
+  entity rom_e_pc at 1( 0) + 0 on 123;
+  architecture arch_rom_e_pc of rom_e_pc at 14( 275) + 0 on 124;
+file . "protouc.vhd" "ec9db42a7f3572e67476e9f3c9bead6afdadc7dd" "20181019003204.157":
+  entity protouc at 1( 0) + 0 on 69;
+  architecture arch_protouc of protouc at 13( 234) + 0 on 70;
+file . "pc.vhd" "522f7ddec698a8afc75b2bc615010504c25c55d4" "20181019010151.364":
+  entity pc at 1( 0) + 0 on 115;
+  architecture arch_pc of pc at 15( 331) + 0 on 116;
+file . "rom.vhd" "c7b361352aa2bdaf5acdd3c508780bf4c782e7ed" "20181019025505.164":
+  entity rom at 1( 0) + 0 on 245;
+  architecture arch_rom of rom at 13( 276) + 0 on 246;
+file . "rom_tb.vhd" "149fd211cff5cc525c8e440a9413f5287c34978d" "20181019025505.368":
+  entity rom_tb at 1( 0) + 0 on 247;
+  architecture arch_rom_tb of rom_tb at 9( 94) + 0 on 248;
+file . "fsm_tb.vhd" "e166e9d68f871f78006c3de06a48f6a20b4b6c09" "20181019013519.520":
+  entity fsm_tb at 1( 0) + 0 on 167;
+  architecture arch_fsm_tb of fsm_tb at 9( 94) + 0 on 168;
+file . "pc_tb.vhd" "18c680855570970edc9ed808aabd3d0b21f441b3" "20181019010151.577":
+  entity pc_tb at 1( 0) + 0 on 117;
+  architecture arch_pc_tb of pc_tb at 9( 93) + 0 on 118;
+file . "protouc_tb.vhd" "8304526d5b6dccc8d99c6d877c36f5621dcd1c3e" "20181019003204.359":
+  entity protouc_tb at 1( 0) + 0 on 71;
+  architecture arch_protouc_tb of protouc_tb at 9( 98) + 0 on 72;
+file . "rom_e_pc_tb.vhd" "f077659e4e83dffff7fc202b2f7c9f5953959795" "20181019010206.991":
+  entity rom_e_pc_tb at 1( 0) + 0 on 125;
+  architecture arch_rom_e_pc_tb of rom_e_pc_tb at 8( 98) + 0 on 126;
+file . "uc_tb.vhd" "4938b0a93add28f5a17a0f8f6ffada9701f8a20c" "20181019013714.669":
+  entity uc_tb at 1( 0) + 0 on 183;
+  architecture arch_uc_tb of uc_tb at 8( 92) + 0 on 184;
+file . "uc_com_jump_tb.vhd" "3f4c23b20a713f4278977eda814f338d9439a43e" "20181019015820.008":
+  entity uc_com_jump_tb at 1( 0) + 0 on 191;
+  architecture arch_uc_com_jump_tb of uc_com_jump_tb at 8( 101) + 0 on 192;
