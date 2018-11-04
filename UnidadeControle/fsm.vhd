@@ -13,16 +13,16 @@ end;
 
 
 architecture arch_fsm of fsm is
-    signal state_s : std_logic := '0';
+    signal toogle : std_logic := '0';
 
     begin
         process(clock, reset)
         begin
             if (reset = '1') then
-                state_s <= '0';
+                toogle <= '0';
             elsif rising_edge(clock) then
-                state_s <= not state_s;
+                toogle <= not toogle;
             end if;
         end process;
-        state <= state_s;
+    state <= toogle;
 end architecture;

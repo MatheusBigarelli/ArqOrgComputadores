@@ -1,0 +1,43 @@
+v 4
+file . "ula_tb.vhd" "4112f162d9e5617ea2518a44cd436c89f1fd0ddb" "20181104220823.618":
+  entity ula_tb at 1( 0) + 0 on 329;
+  architecture arch_ula_tb of ula_tb at 9( 94) + 0 on 330;
+file . "protouc.vhd" "a55f93e097ebf9761727c29d47b7851173ed6c86" "20181104201514.348":
+  entity protouc at 1( 0) + 0 on 115;
+  architecture arch_protouc of protouc at 13( 232) + 0 on 116;
+file . "rom_e_pc.vhd" "2f973b019c18ec1269a3a17e2c5e7ea9bd84a965" "20181104202759.774":
+  entity rom_e_pc at 1( 0) + 0 on 157;
+  architecture arch_rom_e_pc of rom_e_pc at 17( 448) + 0 on 158;
+file . "uc_com_jump.vhd" "d106bba2ab377a80f0a620100a606f1d40a926a9" "20181104220934.690":
+  entity uc_com_jump at 1( 0) + 0 on 331;
+  architecture arch_uc_com_jump of uc_com_jump at 17( 463) + 0 on 332;
+file . "bancoRegs.vhd" "28758c48a130143e2d9ea629afb65be32691aa89" "20181104221509.098":
+  entity bancoregs at 1( 0) + 0 on 345;
+  architecture arch_bancoregs of bancoregs at 20( 500) + 0 on 346;
+file . "reg8bits.vhd" "8106d096bf43efe4448c914b29fa619d781012cf" "20181104201549.730":
+  entity reg8bits at 1( 0) + 0 on 123;
+  architecture arch_reg8bits of reg8bits at 16( 293) + 0 on 124;
+file . "maq_estados_tb.vhd" "869a9b99956bedd32f48825aafbd619ad2f6cc13" "20181104193233.975":
+  entity maq_estados_tb at 1( 0) + 0 on 47;
+  architecture arch_maq_estados_tb of maq_estados_tb at 9( 102) + 0 on 48;
+file . "maq_estados.vhd" "e85cea611d10b2edb59e78abf937a991b2a7f3a1" "20181104193233.776":
+  entity maq_estados at 1( 0) + 0 on 45;
+  architecture arch_maq_estados of maq_estados at 14( 233) + 0 on 46;
+file . "ula.vhd" "2fd6c776c0e1aebb8eb27371b337afde36ea53ef" "20181104220823.411":
+  entity ula at 1( 0) + 0 on 327;
+  architecture arch_ula of ula at 17( 404) + 0 on 328;
+file . "rom.vhd" "bedd40ba16aacd8fb97287ba4c9681866f35f702" "20181104202755.726":
+  entity rom at 1( 0) + 0 on 155;
+  architecture arch_rom of rom at 13( 275) + 0 on 156;
+file . "processador.vhd" "31842599e56368d966c3d86886d6ca6a7742311b" "20181104223539.684":
+  entity processador at 1( 0) + 0 on 371;
+  architecture arch_processador of processador at 19( 473) + 0 on 372;
+file . "processador_tb.vhd" "7174cf2540840948bdf86372aedacf08b345f8ec" "20181104223540.007":
+  entity processador_tb at 1( 0) + 0 on 373;
+  architecture arch_processador_tb of processador_tb at 9( 102) + 0 on 374;
+file . "pc.vhd" "a865ef78049e15e21f73b42237d002d0f749f313" "20181104201222.810":
+  entity pc at 1( 0) + 0 on 83;
+  architecture arch_pc of pc at 15( 329) + 0 on 84;
+file . "bancoRegs_tb.vhd" "3132e991015769a4297757fb02addab3aaedc2fa" "20181104221509.417":
+  entity bancoregs_tb at 1( 0) + 0 on 347;
+  architecture arch_bancoregs_tb of bancoregs_tb at 10( 101) + 0 on 348;

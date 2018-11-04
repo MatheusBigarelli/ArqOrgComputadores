@@ -1,0 +1,14 @@
+rom_e_pc.vhd:47:5:warning: 'program_counter' is not bound [-Wbinding]
+rom_e_pc.vhd:17:14:warning: (in default configuration of rom_e_pc(arch_rom_e_pc)) [-Wbinding]
+rom_e_pc.vhd:48:5:warning: 'proto_control_unit' is not bound [-Wbinding]
+rom_e_pc.vhd:17:14:warning: (in default configuration of rom_e_pc(arch_rom_e_pc)) [-Wbinding]
+error: cannot open rom_e_pc_tb.vhd
+ghdl: compilation error
+error: cannot find entity or configuration rom_e_pc_tb
+ghdl: compilation error
+ghdl: file 'rom_e_pc_tb' does not exists
+ghdl: Please elaborate your design.
+
+GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+
+Error opening ghw file 'rom_e_pc_tb.ghw', rc=-1.
